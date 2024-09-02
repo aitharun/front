@@ -71,7 +71,7 @@ export function Todos({todos, setTodos}){
                     onClick={() => handleDelete(todo._id,index)} // Move onClick to the button for clarity
                         >
                     <img 
-                        src="delete-button-svgrepo-com.svg" 
+                        src="https://res.cloudinary.com/dpovsggij/image/upload/delete-button-svgrepo-com_hfg9oj123" 
                         alt="Delete Task" 
                         style={{
                             width: 25,
