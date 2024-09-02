@@ -26,7 +26,6 @@ export function Todos({todos, setTodos}){
             _id === index ? { ...todo, completed: !todo.completed } : todo
         ));
     };
-    let i=0;
     return <div>
 
         {todos.map(function(todo){
