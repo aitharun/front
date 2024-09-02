@@ -32,7 +32,7 @@ export function Todos({todos, setTodos}){
             if(!todo) return null;
             return(
             <>
-                <li key={i++} style={{
+                <li key={index} style={{
                     display: 'flex',
                     alignItems: 'center',
                     //backgroundColor: '#eaf6ff', /* Light blue background */
